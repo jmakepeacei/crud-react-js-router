@@ -1,0 +1,149 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fila {
+  padding: 5px;
+}
+
+.logo {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+input,
+textarea {
+  border: solid 1px #ccc;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover, li:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 3px auto -webkit-focus-ring-color;
+}
+
+.boton {
+  margin: 0 auto;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.form-group .itexto {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+table,
+td,
+tr,
+th {
+  border: solid 1px #ccc;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+table td:first-child {
+  text-align: center;
+}
+
+table td:nth-child(2) {
+  text-align: left;
+}
+
+.main-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-right: 1px solid #dee2e6;
+}
+
+.content {
+  flex: 1;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 5px;
+}
+
+li {
+  border: solid 1px #e7e8e9;
+  margin-bottom:5px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: #ffffff;
+}
+
+li a {
+  display: block;
+  padding: 0.6em 1.2em;
+}
+
+.pagination {  
+  display: flex;
+  gap: 0.3em;
+  width: 100px;
+}
+
+.pagination button {
+  border: none;
+}
+
+.pagination button:focus {
+  outline: solid 1px #646cff;
+}
+
+.page-link {
+  border: solid 1px #e7e8e9;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
